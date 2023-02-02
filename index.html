@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon_lego.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QOO's Room</title>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+            <path fill="currentColor" d="M11 5V1h2v4Zm6.65 2.75-1.375-1.375 2.8-2.875 1.4 1.425ZM19 13v-2h4v2Zm-8 10v-4h2v4ZM6.35 7.7 3.5 4.925l1.425-1.4L7.75 6.35Zm12.7 12.8-2.775-2.875 1.35-1.35 2.85 2.75ZM1 13v-2h4v2Zm3.925 7.5-1.4-1.425 2.8-2.8.725.675.725.7ZM12 18q-2.5 0-4.25-1.75T6 12q0-2.5 1.75-4.25T12 6q2.5 0 4.25 1.75T18 12q0 2.5-1.75 4.25T12 18Zm0-2q1.65 0 2.825-1.175Q16 13.65 16 12q0-1.65-1.175-2.825Q13.65 8 12 8q-1.65 0-2.825 1.175Q8 10.35 8 12q0 1.65 1.175 2.825Q10.35 16 12 16Zm0-4Z"/>
+          </svg>
+        </div>
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+        <div class="moon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+            <path fill="currentColor" d="M12 21q-3.75 0-6.375-2.625T3 12q0-3.75 2.625-6.375T12 3q.35 0 .688.025.337.025.662.075-1.025.725-1.637 1.887Q11.1 6.15 11.1 7.5q0 2.25 1.575 3.825Q14.25 12.9 16.5 12.9q1.375 0 2.525-.613 1.15-.612 1.875-1.637.05.325.075.662Q21 11.65 21 12q0 3.75-2.625 6.375T12 21Zm0-2q2.2 0 3.95-1.212 1.75-1.213 2.55-3.163-.5.125-1 .2-.5.075-1 .075-3.075 0-5.238-2.162Q9.1 10.575 9.1 7.5q0-.5.075-1t.2-1q-1.95.8-3.162 2.55Q5 9.8 5 12q0 2.9 2.05 4.95Q9.1 19 12 19Zm-.25-6.75Z"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+
+
+        <!-- intro page -->
+
+        <section class="hero">
+          <div class="hero-wrapper">
+
+            <div class="intro-text">WELCOME TO MY ROOM</div>
+
+            <div class="arrow-svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                <path fill="currentColor" d="m12 16.35-7-7 2.4-2.375 4.6 4.6 4.6-4.6L19 9.35Z"/>
+              </svg>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">QOO's Room</h1>
+              <p class="hero-main-description">made with Three.js, Blender, GSAP, Vanilla JS</p>
+            </div>
+
+            <div class="hero-second">
+              <h1 class="hero-second-subheading first-sub">Front-End Web Developer</h1>
+              <p class="hero-main-description second-sub">* 이 사이트는 모바일 보다 PC로 방문하시면 더욱 귀엽습니다.</p>
+            </div>
+
+          </div>
+
+        </section> 
+
+
+        <!-- first page -->
+
+        <div class="first-move section-margin"></div>
+        
+
+        <section class="first-section section left">
+
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text001">About Me</span>
+              <span class="section-title-text002">About Me</span>
+              <div class="section-title-decoration styleOne"></div>
+              <div class="section-title-decoration styleTwo"></div>
+              <div class="section-title-decoration styleThree"></div>
+              <div class="section-title-decoration styleFour"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">구본협 Bonhyub Qoo <span id="getAge"></span>세 <br>강남구 역삼동 거주</h3>
+            <h3 class="section-heading"></h3>
+            <p class="section-text">철학과 심리학을 전공한 뒤 수년간 IT업계의 스타트업에서 경영지원 업무를 맡으며 조직의 체계적인 운영을 익히고 다양한 사업들을 관리했습니다.</p>
+            <p class="section-text">데이터와 SW 개발에 소질이 있어 웬만한 사내 서비스는 혼자서 만들었다는데... (기술지원 기다릴 바에 내가 하고 만다?)</p>
+            <p class="section-text">시간이 날 때면 레고를 조립하고, 내추럴 와인을 즐겨 마시며, 코딩할 때 도움을 주는 Lofi Hiphop 혹은 쳇 베이커와 빌 에반스의 음악을 자주 듣습니다. 최근 웹3.0 관련 기술에 빠져서 3D Web과 AR/VR, 블록체인 학습 및 개발에 관심이 매우 많습니다.</p>
+          </div>
+
+        </section>
+
+
+        <!-- second page -->
+
+        <div class="second-move section-margin"></div>
+
+
+        <section class="second-section section right">
+
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar green-background"></div>
+          </div>
+          
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text001 green-text">My Work</span>
+              <span class="section-title-text002 green-text-shadow">My Work</span>
+              <div class="section-title-decoration styleOne green-border"></div>
+              <div class="section-title-decoration styleTwo green-border"></div>
+              <div class="section-title-decoration styleThree green-background green-border"></div>
+              <div class="section-title-decoration styleFour green-background green-border"></div>
+            </h1>
+            <span class="section-number green-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">세련되고 귀여운 Web 3.0</h3>
+            <p class="section-text">새로운 기술을 적극 활용해 빠르게 변화하는 기술 스택에 능통하는 개발자가 되고자 합니다. 향후에는 Awwwards.com 사이트에 노미네이트 되어 세계적으로 인정받고 싶습니다.</p>
+            <h3 class="section-heading">Blender - Threejs - React</h3>
+            <p class="section-text">3D와 Web의 조합은 언제나 놀랍습니다. 사용자는 Web 3.0 기술을 통해 보다 새롭고 자유로운 상호작용을 경험하며 이전의 웹으로 쉽게 돌아가지 못할 것입니다.</p>
+          </div>
+
+        </section>
+
+
+        <!-- third page -->
+
+        <div class="third-move section-margin"></div>
+
+
+        <section class="third-section section left">
+
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text001 blue-text">My Club</span>
+              <span class="section-title-text002 blue-text-shadow">My Club</span>
+              <div class="section-title-decoration styleOne blue-border"></div>
+              <div class="section-title-decoration styleTwo blue-border"></div>
+              <div class="section-title-decoration styleThree blue-background blue-border"></div>
+              <div class="section-title-decoration styleFour blue-background blue-border"></div>
+            </h1>
+            <span class="section-number blue-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">프리폴리(Freepoli)는</h3>
+            <p class="section-text">사이드 프로젝트 팀으로써 2022년, 가을부터 활동을 시작했습니다. 함께하는 팀원으로 문학을 전공한 기획자가 있습니다.</p>
+            <h3 class="section-heading">새로운 놀이터이자 사고 실험실</h3>
+            <p class="section-text">프리폴리는 경쟁이 아닌 협력을 기반으로, 시장에서의 개인이 아닌 공동체의 구성원으로서, 낯선 질문을 던집니다. 권력, 위계, 주류의 흐름 속에서 발견되지 못했던 목소리를 말과 글로 담아보기도 합니다.</p>
+            <p class="section-text">미술가의 아뜰리에가 창작의 산실이듯, 프리폴리에게 PC는 새로운 놀이터이자 사고 실험실입니다. 이에 구본협은 웹을 기반으로 주변적인 것들을 모으거나 데이터를 분석하여 현실의 이면을 드러내고자 합니다. 불가능하다고 여기는 것을 일시적으로나마-가상으로-가능케 하고자 합니다.</p>
+            <h3 class="section-heading">'내 삶이 왜 이렇지?'</h3>
+            <p class="section-text">'존재의 중심은 무엇이어야 할까?' '세상은 어디서부터 무엇이 잘못된 것일까?'라는 질문을 마음껏 할 수 있는 제 3의 공간을 꿈꿉니다.</p>
+            <h3 class="section-heading"></h3>
+            <p class="section-text" style="display: flex; justify-content: space-around;">
+              <a href="https://www.instagram.com/freepoli.kr/" target="_blank"><img id="insta" width="50em" height="50em" alt="insta-icon"></a>
+              <a href="https://brunch.co.kr/@egloo" target="_blank"><img id="brunch" width="50em" height="50em" alt="brunch-icon"></a>
+              <a href="https://freepoli.com/" target="_blank"><img id="home001" width="50em" height="50em" alt="home-icon"></a>
+              <a href="https://freepoli.kr/" target="_blank"><img id="link" width="50em" height="50em" alt="link-icon"></a>
+            </p>
+          </div>
+
+        </section>
+
+
+        <!-- fourth page -->
+
+        <div class="fourth-move section-margin"></div>
+
+
+        <section class="fourth-section section right">
+
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar purple002-background"></div>
+          </div>
+          
+          <div class="section-intro-wrapper purple002-text purple002-border">
+            <h1 class="section-title purple002-text purple002-border">
+              <span class="section-title-text001 purple002-text">My Room</span>
+              <span class="section-title-text002 purple002-text-shadow">My Room</span>
+              <div class="section-title-decoration styleOne purple002-border"></div>
+              <div class="section-title-decoration styleTwo purple002-border"></div>
+              <div class="section-title-decoration styleThree purple002-background purple002-border"></div>
+              <div class="section-title-decoration styleFour purple002-background purple002-border"></div>
+            </h1>
+            <span class="section-number purple002-text">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">나만의 작품을 만드는 작업실</h3>
+            <p class="section-text">언제나 두툼하고 묵직한 마지언타이틀 가방에 노트북을 들고 다니는 프로 짐꾼러입니다. 늘 새로운 기술을 배우고, 이를 통해 다양한 실험을 즐기며 저만의 세계를 표현합니다.</p>
+            <h3 class="section-heading">나만의 취향으로 가득찬 리소스</h3>
+            <p class="section-text">기존의 코드를 리팩토링하면서 저만의 리소스를 자주 모으는 편입니다. 진취적인 시도를 통해 얻는 통찰력과 성취감을 좋아합니다.</p>
+            <h3 class="section-heading">나에 대해 더 알아보기</h3>
+            <p class="section-text">아래의 링크를 통해 실시간 업데이트 되는 저의 작업 기록을 확인하실 수 있습니다. 저에 대해 더 궁금하시다면 아래 메일로 연락주세요.</p>
+            <h3 class="section-heading"></h3>
+            <p class="section-text" style="display: flex; justify-content: space-around;">
+              <a href="https://github.com/danielqoo" target="_blank"><img id="github" width="50em" height="50em" alt="github-icon"></a>
+              <a href="https://qoo900.com" target="_blank"><img id="home002" width="50em" height="50em" alt="home-icon"></a>
+              <a href="mailto:tablern99@gmail.com" target="_blank"><img id="mail" width="50em" height="50em" alt="mail-icon"></a>
+            </p>
+          </div>
+
+        </section>
+
+
+
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+
+  </body>
+
+  <script>
+    function getAge(){
+      const today = new Date();
+      const birthDate = new Date(1989, 10, 19);
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      document.getElementById('getAge').textContent = age;
+      window.setTimeout(getAge, 1000);
+    };
+
+    getAge();
+
+  </script>
+
+<script>
+function lightImg() {
+  document.getElementById("insta").src = './textures/sns_insta_icon.png';
+  document.getElementById("brunch").src = './textures/sns_brunch_icon.png';
+  document.getElementById("home001").src = './textures/home_icon.png';
+  document.getElementById("home002").src = './textures/home_icon.png';
+  document.getElementById("link").src = './textures/link_icon.png';
+  document.getElementById("github").src = './textures/github_icon.png';
+  document.getElementById("mail").src = './textures/mail_icon.png';
+}
+
+function darkImg() {
+  document.getElementById("insta").src = './textures/sns_insta_icon_dark.png';
+  document.getElementById("brunch").src = './textures/sns_brunch_icon_dark.png';
+  document.getElementById("home001").src = './textures/home_icon_dark.png';
+  document.getElementById("home002").src = './textures/home_icon_dark.png';
+  document.getElementById("link").src = './textures/link_icon_dark.png';
+  document.getElementById("github").src = './textures/github_icon_dark.png';
+  document.getElementById("mail").src = './textures/mail_icon_dark.png';
+}
+
+function switchTheme(event) {
+  if (document.body.getAttribute('class') === "light-theme") {
+      lightImg();
+  } else {
+      darkImg();
+  }
+  window.setTimeout(switchTheme, 100);
+}
+
+switchTheme();
+
+</script>
+
+</html>
