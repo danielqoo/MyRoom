@@ -48,11 +48,7 @@ svg{
   --color-blue: var(--color-blue-light);
   --color-green: var(--color-green-light);
   --color-purple001: var(--color-purple001-light);
-<<<<<<< HEAD
   --color-purple002: var(--color-purple002-light);
-=======
-  --color-purple002: var(--color-purple002-light)
->>>>>>> 72bc0a4 (first_commit)
 }
 
 .dark-theme{
@@ -61,11 +57,7 @@ svg{
   --color-blue: var(--color-text-dark);
   --color-green: var(--color-text-dark);
   --color-purple001: var(--color-text-dark);
-<<<<<<< HEAD
   --color-purple002: var(--color-text-dark);
-=======
-  --color-purple002: var(--color-text-dark)
->>>>>>> 72bc0a4 (first_commit)
 
 }
 
@@ -177,11 +169,7 @@ svg{
   top: 50%;
   left: 50%;
   font-weight: 500;
-<<<<<<< HEAD
   font-size: 34px;
-=======
-  font-size: 32px;
->>>>>>> 72bc0a4 (first_commit)
   color: var(--color-text);
   transform: translate(-50%, -50%);
 }
@@ -191,17 +179,10 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   top: 90%;
   left: 50%;
   font-weight: 500;
   font-size: 34px;
-=======
-  top: 93%;
-  left: 50%;
-  font-weight: 500;
-  font-size: 32px;
->>>>>>> 72bc0a4 (first_commit)
   opacity: 0;
   color: var(--color-text);
   transform: translate(-50%, -50%);
@@ -357,11 +338,7 @@ svg{
 }
 
 .section-heading{
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-size: 18px;
->>>>>>> 72bc0a4 (first_commit)
   font-weight: 700;
   line-height: 1.8;
   margin-top: 64px;
@@ -371,11 +348,7 @@ svg{
 .section-text{
   line-height: 2;
   margin-top: 18px;
-<<<<<<< HEAD
   font-size: 18px;
-=======
-  font-size: 16px;
->>>>>>> 72bc0a4 (first_commit)
   color: var(--color-text);
 }
 
@@ -389,11 +362,7 @@ svg{
 
 .section-title-text001{
   display: block;
-<<<<<<< HEAD
   font-size: 42px;
-=======
-  font-size: 40px;
->>>>>>> 72bc0a4 (first_commit)
   font-weight: 500;
   transform-origin: left;
   transform: skewY(-25deg) translate3d(20px,0px,0px);
@@ -404,11 +373,7 @@ svg{
 
 .section-title-text002{
   display: block;
-<<<<<<< HEAD
   font-size: 42px;
-=======
-  font-size: 40px;
->>>>>>> 72bc0a4 (first_commit)
   font-weight: 500;
   color: var(--color-background);
   text-shadow: -1px 0 var(--color-purple001), 0 1px var(--color-purple001), 1px 0 var(--color-purple001), 0 -1px var(--color-purple001);
@@ -457,11 +422,7 @@ svg{
   bottom: 15px;
   right: 0;
   color: var(--color-purple001);
-<<<<<<< HEAD
   font-size: 26px;
-=======
-  font-size: 24px;
->>>>>>> 72bc0a4 (first_commit)
 }
 
 
@@ -496,29 +457,17 @@ svg{
 }
 
 .hero-main-title{
-<<<<<<< HEAD
   font-size: 66px;
-=======
-  font-size: 64px;
->>>>>>> 72bc0a4 (first_commit)
   color: var(--color-text);
 }
 
 .hero-main-description{
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-size: 18px;
->>>>>>> 72bc0a4 (first_commit)
   color: var(--color-text);
 }
 
 .hero-second-subheading{
-<<<<<<< HEAD
   font-size: 34px;
-=======
-  font-size: 32px;
->>>>>>> 72bc0a4 (first_commit)
   text-transform: uppercase;
   color: var(--color-text);
 }
@@ -590,7 +539,6 @@ svg{
     right: 0;
     left: auto;
   }
-<<<<<<< HEAD
   .arrow-svg-wrapper{
     top: 85%;
   }
@@ -599,19 +547,11 @@ svg{
   }
   .hero-second{
     top: 80px;
-=======
-  .hero-main{
-    bottom: 100px;
-  }
-  .hero-second{
-    top: 100px;
->>>>>>> 72bc0a4 (first_commit)
   }
   .hero-wrapper{
     width: calc(100% - 60px);
   }
   .hero-main-title{
-<<<<<<< HEAD
     font-size: 40px;
   }
   .hero-main-description{
@@ -619,15 +559,6 @@ svg{
   }
   .hero-second-subheading{
     font-size: 22px;
-=======
-    font-size: 38px;
-  }
-  .hero-main-description{
-    font-size: 20px;
-  }
-  .hero-second-subheading{
-    font-size: 20px;
->>>>>>> 72bc0a4 (first_commit)
   }
   .intro-text{
     top: 27%;

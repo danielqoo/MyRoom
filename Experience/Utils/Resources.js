@@ -59,12 +59,8 @@ export default class Resources extends EventEmitter {
                 this.video[asset.name].playsInline = true;
                 this.video[asset.name].autoplay = true;
                 this.video[asset.name].loop = true;
-<<<<<<< HEAD
                 var playPromise = this.video[asset.name].play();
                 if (playPromise !== undefined) { playPromise.then((_) => {}).catch((error) => {}); }
-=======
-                this.video[asset.name].play();
->>>>>>> 72bc0a4 (first_commit)
 
                 this.videoTexture[asset.name] = new THREE.VideoTexture(
                     this.video[asset.name]
