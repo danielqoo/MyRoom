@@ -16,10 +16,7 @@ export default class Camera{
 
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 72bc0a4 (first_commit)
     createPerspectiveCamera(){
         this.perspectiveCamera = new THREE.PerspectiveCamera(
             35,
